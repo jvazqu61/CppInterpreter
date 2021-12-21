@@ -1,0 +1,13 @@
+list1 NEWID
+list2 NEWID
+x NEWID
+y NEWID
+x 10 ASSIGN
+x list1 COMBINE
+x 5 ASSIGN
+x list1 COMBINE
+y 1 ASSIGN
+y CHS
+y list2 COMBINE
+list2 list1 COMBINE
+HLT
